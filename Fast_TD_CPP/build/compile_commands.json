@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/ubuntu/TDCPP/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/FastTD.dir/test.cpp.o -c /home/ubuntu/TDCPP/test.cpp",
+  "file": "/home/ubuntu/TDCPP/test.cpp"
+},
+{
+  "directory": "/home/ubuntu/TDCPP/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/FastTD.dir/FastTD.cpp.o -c /home/ubuntu/TDCPP/FastTD.cpp",
+  "file": "/home/ubuntu/TDCPP/FastTD.cpp"
+}
+]

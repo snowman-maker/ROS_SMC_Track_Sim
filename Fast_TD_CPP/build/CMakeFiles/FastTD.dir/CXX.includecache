@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/TDCPP/FastTD.cpp
+FastTD.h
+/home/ubuntu/TDCPP/FastTD.h
+cmath
+/home/ubuntu/TDCPP/cmath
+iostream
+/home/ubuntu/TDCPP/iostream
+
+/home/ubuntu/TDCPP/FastTD.h
+
+/home/ubuntu/TDCPP/test.cpp
+FastTD.h
+/home/ubuntu/TDCPP/FastTD.h
+iostream
+/home/ubuntu/TDCPP/iostream
+vector
+/home/ubuntu/TDCPP/vector
+cmath
+/home/ubuntu/TDCPP/cmath
+iostream
+/home/ubuntu/TDCPP/iostream
+fstream
+/home/ubuntu/TDCPP/fstream
+string
+/home/ubuntu/TDCPP/string
+

@@ -1,0 +1,3 @@
+/home/ubuntu/TDCPP/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/TDCPP/build/CMakeFiles/FastTD.dir
+/home/ubuntu/TDCPP/build/CMakeFiles/edit_cache.dir

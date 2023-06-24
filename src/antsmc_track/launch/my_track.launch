@@ -1,0 +1,23 @@
+<launch>
+    <node pkg="antsmc_track" type="Tracker_node" name="tracker" output="screen">
+
+        <!--Basic vehicle information--><!--kesi is the Vehicle front wheel deflection angle-->
+        <param name="V_DESIRED" value="0.5"/>
+
+        <!--car initial state-->
+        <param name="initial_x" value="0.127"/>
+        <param name="initial_y" value="-0.1474"/>
+        <param name="initial_yaw" value="0.2138"/>
+        <param name="initial_kesi" value="0.0"/>
+
+        <!--controller information-->
+        <param name="freq" value="10"/><!--control freq-->
+        <param name="slow_LEVE1_DISTANCE" value="4.0"/><!--First stage deceleration distance-->
+        <param name="slow_LEVE2_DISTANCE" value="1.0"/><!--Secondary deceleration distance-->
+        <param name="goal_tolerance_DISTANCE" value="0.1"/><!--Tracking stop distance-->
+        <param name="slow_LEVE1_V" value="0.5"/>
+        <param name="slow_LEVE2_V" value="0.15"/>
+    </node>
+    <!--rviz-->
+    <node name="antsmc_track_rviz" pkg="rviz" type="rviz" required="true" args="-d $(find antsmc_track)/rviz/track.rviz"/>
+</launch>

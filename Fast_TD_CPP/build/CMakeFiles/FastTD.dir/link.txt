@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/FastTD.dir/test.cpp.o CMakeFiles/FastTD.dir/FastTD.cpp.o  -o FastTD 

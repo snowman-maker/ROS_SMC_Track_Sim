@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="antsmc_track" type="Tracker_node" name="tracker" output="screen">
+    <!--rviz-->
+    <node name="antsmc_track_rviz" pkg="rviz" type="rviz" required="true" args="-d $(find antsmc_track)/rviz/track.rviz"/>
+</launch>
